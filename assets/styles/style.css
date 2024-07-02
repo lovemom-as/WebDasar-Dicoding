@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Nunito';
   padding: 0;
@@ -6,7 +10,7 @@ body {
 
 h2, h3 {
   color: #00a2c6;
-  font-weight: 900px;
+  font-weight: 200px;
 }
 
 footer {
@@ -74,4 +78,5 @@ nav {
 
 main {
   padding: 20px;
+  overflow: auto;
 }
